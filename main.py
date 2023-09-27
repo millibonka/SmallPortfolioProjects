@@ -1,8 +1,13 @@
-# Morse code converter 
+"""
+Morse Code Converter
+
+Takes in a message either directly through command line or prompting the user for input
+and converts it into morse code dashes and dots
+"""
 import sys
 import pandas as pd
 
-MORSE_CODE_PATH = "data\morse.csv"
+MORSE_CODE_PATH = "data\\morse.csv"
 
 
 class MorseCodeConverter:
@@ -17,7 +22,7 @@ class MorseCodeConverter:
             output =  " ".join(morse_code)
             print(f"The morse code for {message} is: ", output)
         except KeyError:
-                print("Only latin letters and numbers are supported.")
+            print("Only latin letters and numbers are supported.")
 
 
 
