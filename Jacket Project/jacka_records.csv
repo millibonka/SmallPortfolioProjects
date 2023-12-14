@@ -1,0 +1,2 @@
+observation_time,temperature,weather_code,weather_descriptions,wind_speed,wind_degree,wind_dir,pressure,precip,humidity,cloudcover,feelslike,uv_index,visibility,is_day,reporting_date,jacka_status
+02:53 PM,-4,116,Partly cloudy,4,182,S,1018,0,80,75,-5,1,10,no,2023-12-14 15:56,5
